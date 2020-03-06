@@ -57,7 +57,7 @@ RSpec.describe 'Users API', type: :request do
 
             it "returns the json data for errors" do
                 user_response = JSON.parse(response.body)
-                expect( user_response).to have_key('errors')
+                expect(user_response).to have_key('errors')
             end
         end #Context invalid
     end #describe post
