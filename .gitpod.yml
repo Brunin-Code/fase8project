@@ -1,3 +1,7 @@
 image:
   file: .gitpod.dockerfile
     
+
+vscode:
+  extensions:
+    - wingrunr21.vscode-ruby@0.26.0:VakXVw0C77hAQ3U3AZTn1Q==
